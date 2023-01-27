@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
 
 * {
     font-family: 'Noto Sans KR', sans-serif;
+    background-color: #272729;
+    // background-color: #1d1d1f;
 }
 `;
 
