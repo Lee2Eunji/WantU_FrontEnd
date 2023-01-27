@@ -1,10 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-
-interface Props {
-  imgSrc: string;
-  name: string;
-}
+import { Props } from '../constant';
 
 const Btn = ({ imgSrc, name }: Props) => {
   return (
@@ -28,7 +24,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   background-color: #f0f8ff;
 `;
 

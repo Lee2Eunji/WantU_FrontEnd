@@ -1,13 +1,25 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import List from '../components/List';
+import Nav from '../components/Nav';
 
-export default function L_list() {
-    return(
-        <div>
-            <StyledH1>lg list입니다</StyledH1>
-        </div>
-    )
+export default function A_list() {
+  return (
+    <div>
+      <Nav />
+      <StyledDiv>
+        <StyledH1>LG</StyledH1>
+        <List />
+      </StyledDiv>
+    </div>
+  );
 }
 
+const StyledDiv = styled.div`
+  background-color: black;
+`;
+
 const StyledH1 = styled.h1`
-color: #808080;
+  padding-top: 3%;
+  text-align: center;
+  color: white;
 `;
