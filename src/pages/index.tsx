@@ -4,8 +4,17 @@ import ItemDetailTitle from '../components/ItemDetails/ItemDetailTitle';
 export default function Home() {
   return (
     <>
-      <h1>hi</h1>
       <MainBody children={MainFirstArea()} />
     </>
   );
+}
+
+import Nav from "../components/Nav";
+
+export default function Home() {
+  return (
+    <>
+    <Nav/>
+    </>
+  )
 }
