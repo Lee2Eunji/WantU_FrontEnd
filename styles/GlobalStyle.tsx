@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
@@ -8,8 +8,12 @@ const GlobalStyle = createGlobalStyle`
 }
 
 * {
+    
     font-family: 'Noto Sans KR', sans-serif;
-    background-color: #272729;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
     // background-color: #1d1d1f;
 }
 `;
