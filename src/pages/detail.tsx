@@ -8,22 +8,22 @@ export default function Detail() {
       <Container>
         <StyledH1>(제품 이름)</StyledH1>
         <Collect>
-          <Category2>
-            <StyledSpan2>기관 명</StyledSpan2>
-            <StyledSpan2>가격</StyledSpan2>
-          </Category2>
-          <Category2>
-            <StyledSpan2>학생복지스토어</StyledSpan2>
-            <StyledSpan2>(제품 가격)</StyledSpan2>
-          </Category2>
-          <Category2>
-            <StyledSpan2>교육할인스토어</StyledSpan2>
-            <StyledSpan2>(제품 가격)</StyledSpan2>
-          </Category2>
-          <Category2>
-            <StyledSpan2>공식홈</StyledSpan2>
-            <StyledSpan2>(제품 가격)</StyledSpan2>
-          </Category2>
+          <Category>
+            <StyledSpan>기관 명</StyledSpan>
+            <StyledSpan>가격</StyledSpan>
+          </Category>
+          <Category>
+            <StyledSpan>학생복지스토어</StyledSpan>
+            <StyledSpan>(제품 가격)</StyledSpan>
+          </Category>
+          <Category>
+            <StyledSpan>교육할인스토어</StyledSpan>
+            <StyledSpan>(제품 가격)</StyledSpan>
+          </Category>
+          <Category>
+            <StyledSpan>공식홈</StyledSpan>
+            <StyledSpan>(제품 가격)</StyledSpan>
+          </Category>
         </Collect>
       </Container>
     </>
@@ -34,7 +34,7 @@ const Collect = styled.div`
   display: grid;
   background-color: black;
   grid-template-columns: 70vw;
-  grid-template-rows: 10vw 10vw 10vw 10vw;
+  grid-template-rows: 5vw 8vw 8vw 8vw;
 
   margin-bottom: 2rem;
 `;
@@ -44,8 +44,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
-height: 100%;
 
 background-color: black;
 `;
@@ -58,16 +56,16 @@ const StyledH1 = styled.h1`
   text-align: center;
 `;
 
-const Category2 = styled.div`
+const Category = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
 
   margin: 0 2rem;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   border-bottom: 1px solid #565656;
 `;
 
-const StyledSpan2 = styled.span`
+const StyledSpan = styled.span`
   color: #d3d3d3;
 `;
