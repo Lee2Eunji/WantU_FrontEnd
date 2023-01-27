@@ -40,15 +40,15 @@ const Detail = ({ list }: Props) => {
               <StyledSpan>(제품 가격)</StyledSpan>
             </Category>
             <Category>
+              <StyledSpan>교육할인스토어</StyledSpan>
+              <StyledSpan>(제품 가격)</StyledSpan>
+            </Category>
+            <Category>
               <StyledSpan>학생복지스토어</StyledSpan>
               <StyledSpan>(제품 가격)</StyledSpan>
             </Category>
             <Category>
               <StyledSpan>쿠팡</StyledSpan>
-              <StyledSpan>(제품 가격)</StyledSpan>
-            </Category>
-            <Category>
-              <StyledSpan>교육할인스토어</StyledSpan>
               <StyledSpan>(제품 가격)</StyledSpan>
             </Category>
           </Collect>
