@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Button from '@mui/material/Button';
 import { Carousel } from 'react-responsive-carousel';
@@ -80,11 +79,13 @@ const StyledMainImageArea = styled.article`
 const StyledP = styled.p`
   color: white;
   font-size: 1rem;
+  background-color: #0a1929;
 `;
 
 const StyledH1 = styled.h1`
   font-weight: 700;
   font-size: 2.1rem;
+  background-color: #0a1929;
   color: #c2e0ff;
   max-width: 500px;
   animation: ${boxinit} 1.5s linear;
@@ -96,6 +97,7 @@ const StyledH2 = styled(StyledH1)`
 
 const StyledMainFirstArea = styled.section`
   width: 50%;
+  background-color: #0a1929;
   display: flex;
   height: 100%;
   line-height: 2;
@@ -107,5 +109,6 @@ const StyledMainFirstArea = styled.section`
 
 const StyledMainArticle = styled.article`
   width: 80%;
+  background-color: #0a1929;
   max-height: 600px;
 `;

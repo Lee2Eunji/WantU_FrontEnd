@@ -28,7 +28,7 @@ const StyledMainBody = styled.main`
   height: auto;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
+
   max-height: 800px;
   background-color: #0a1929;
   font-weight: 700;
