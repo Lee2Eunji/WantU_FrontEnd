@@ -1,18 +1,22 @@
+import axios from 'axios';
+import { useEffect } from 'react';
 import styled from 'styled-components';
 import List from '../components/List';
 import Nav from '../components/Nav';
 
-export default function A_list() {
+const A_list = () => {
   return (
     <div>
       <Nav />
       <StyledDiv>
         <StyledH1>Apple</StyledH1>
-        <List />
+        <List typeofList={2} />
       </StyledDiv>
     </div>
   );
-}
+};
+
+export default A_list;
 
 const StyledDiv = styled.div`
   background-color: black;
